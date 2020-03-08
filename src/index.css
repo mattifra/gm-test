@@ -1,11 +1,48 @@
+/* Global variables - changing with different projects */
+
+:root {
+  --primary-color: #79CEBC; /* greenmatters primary color */
+  --gray-dark: #353535; /* text primary color */
+}
+
+
+/* Super global styles */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Poppins:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Oswald', sans-serif;
+  color: var(--gray-dark);
 }
+
+button {
+  border: 0;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -4,9 +4,6 @@ import GridArticles from './modules/GridArticles'
 import NewsList from './data/gm-test';
 import logo from "./images/gm-logo.svg";
 
-import './App.css'
-
-
 function App() {
   return (
     <div>
