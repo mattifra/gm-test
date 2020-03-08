@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+
+/* Global variables - changing with different projects */
+
+:root {
+  --primary-color: #79CEBC; /* greenmatters primary color */
+  --danger-color: tomato;
+  --gray-dark: #353535;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Super global styles */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Poppins:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Oswald', sans-serif;
+  color: var(--gray-dark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  border: 0;
+  -webkit-appearance: none;
+  background: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4 {
+  margin: 0;
 }
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
