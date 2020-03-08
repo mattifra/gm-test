@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {mediaMin, mediaMax} from '../config/mq'
+import {mediaMax} from '../config/mq'
 import {LinkBase} from '../commons/Links'
 
 

@@ -3,7 +3,7 @@ import Navigation from '../modules/Nav';
 import {Container} from '../commons/Container'
 import styled from 'styled-components';
 import Hamburger from "../modules/Hamburger"
-import {mediaMin, mediaMax} from '../config/mq'
+import {mediaMin} from '../config/mq'
 import SocialsNav from '../modules/SocialsNav'
 
 

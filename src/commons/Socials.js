@@ -21,7 +21,7 @@ const SocialLink = styled.a`
 export const SocialItem = (props)=> {
   return (
     <SocialLink href={props.href}>
-      <img  width="16" height="16" src={props.iconUrl} />
+      <img  width="16" height="16" src={props.iconUrl}  alt=""/>
     </SocialLink>
   )
 }
