@@ -3,8 +3,7 @@
 
 :root {
   --primary-color: #79CEBC; /* greenmatters primary color */
-  --danger-color: tomato;
-  --gray-dark: #353535;
+  --gray-dark: #353535; /* text primary color */
 }
 
 

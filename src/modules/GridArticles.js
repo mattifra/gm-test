@@ -60,7 +60,7 @@ const ArticlesListItem = styled.li`
 
     figcaption {
       margin-top: -20px;
-      h3 {
+       h3 {
         margin-top: 10px;
       }
     }
