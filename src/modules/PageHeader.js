@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from '../modules/Nav';
 import {Container} from '../commons/Container'
 import styled from 'styled-components';
-import Hamburger from "../modules/Hamburger"
+import Hamburger from "../commons/Hamburger"
 import {mediaMin} from '../config/mq'
 import SocialsNav from '../modules/SocialsNav'
 
